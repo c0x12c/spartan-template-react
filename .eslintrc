@@ -1,6 +1,6 @@
 {
   "root": true,
-  "env": { "browser": true, "es2020": true },
+  "env": { "browser": true, "es2020": true, "node": true },
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -29,10 +29,6 @@
     {
       "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
       "rules": {
-        "react/jsx-sort-props": [true, {
-          "callbacksLast": true,
-          "shorthandFirst": true
-        }],
         "simple-import-sort/imports": [
           "error",
           {

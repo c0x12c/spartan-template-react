@@ -2,17 +2,16 @@
   "name": "spartan-react",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx,js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "lint:staged" : "lint-staged",
-    "typecheck" : "tsc --noEmit",
-    "pre-commit" : "yarn lint:staged",
-    "pre-push" : "yarn lint && yarn typecheck && yarn test --coverage --watchAll=false",
-    "postinstall" : "npx husky install"
+    "lint:staged": "lint-staged",
+    "typecheck": "tsc --noEmit",
+    "pre-commit": "yarn lint:staged",
+    "pre-push": "yarn lint && yarn typecheck && yarn test --coverage --watchAll=false",
+    "postinstall": "npx husky install"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -39,6 +38,7 @@
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-tsconfig-paths": "^4.2.1"
   }
 }

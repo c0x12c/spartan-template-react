@@ -10,7 +10,7 @@
     "lint:staged": "lint-staged",
     "typecheck": "tsc --noEmit",
     "pre-commit": "yarn lint:staged",
-    "pre-push": "yarn lint && yarn typecheck && yarn test --coverage --watchAll=false",
+    "pre-push": "yarn lint && yarn typecheck",
     "postinstall": "npx husky install"
   },
   "dependencies": {

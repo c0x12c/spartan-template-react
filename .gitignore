@@ -24,3 +24,18 @@ dist-ssr
 *.sw?
 
 .env.local
+
+# yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.idea
+
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build

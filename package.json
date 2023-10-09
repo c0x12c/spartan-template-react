@@ -19,7 +19,8 @@
     "@mui/material": "^5.14.12",
     "@tanstack/react-query": "^4.35.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.47.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
